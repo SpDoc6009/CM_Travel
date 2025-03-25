@@ -986,9 +986,10 @@
         /* 更新活潑標題樣式為更可愛有藝術感的風格 */
         .fun-title {
             font-family: 'Mochiy Pop One', 'Zen Maru Gothic', 'Yusei Magic', sans-serif;
-            font-weight: 700;
-            color: #D32F2F; /* 改為較深的紅色 */
-            text-shadow: 3px 3px 0 #FFC107, 5px 5px 0 rgba(0,0,0,0.2);
+            font-weight: 400; /* 移除粗體 */
+            color: #FFCDD2; /* 更淺的淡紅色 */
+            text-shadow: none; /* 移除陰影 */
+            -webkit-text-stroke: 1px #000000; /* 添加黑色外框 */
             letter-spacing: 2px;
             transform: rotate(-1.5deg);
             display: inline-block;
@@ -996,7 +997,7 @@
             background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,243,224,0.95));
             border-radius: 15px;
             margin-bottom: 20px;
-            border: 2px dashed #FFA000; /* 更深的黃色邊框 */
+            border: 2px dashed #555555;
             box-shadow: 0 5px 15px rgba(0,0,0,0.15);
             position: relative;
         }
@@ -1006,8 +1007,9 @@
             position: absolute;
             top: -10px;
             left: -5px;
-            color: #FFA000; /* 更深的黃色星星 */
+            color: #FFD700; /* 改為亮黃色星星 */
             font-size: 24px;
+            text-shadow: 0 0 3px rgba(0,0,0,0.3); /* 添加輕微陰影增強可見度 */
         }
         
         .fun-title::after {
@@ -1015,8 +1017,9 @@
             position: absolute;
             bottom: -10px;
             right: -5px;
-            color: #FFA000; /* 更深的黃色星星 */
+            color: #FFD700; /* 改為亮黃色星星 */
             font-size: 24px;
+            text-shadow: 0 0 3px rgba(0,0,0,0.3); /* 添加輕微陰影增強可見度 */
         }
         
         .header-subtitle {
