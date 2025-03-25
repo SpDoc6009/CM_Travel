@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>胸腔內外科科遊 | 石門水庫・大溪老街</title>
+    <!-- 添加Google Fonts中更活潑的字體 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Kosugi+Maru&family=Baloo+Thambi+2:wght@400;500;600;700&family=Mochiy+Pop+One&family=Yusei+Magic&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
     <!-- 添加苹果风格样式 -->
     <style>
         /* 修改為日式風格底色和整體配色方案 */
@@ -981,6 +982,50 @@
             margin-bottom: 8px;
             display: block;
         }
+        
+        /* 更新活潑標題樣式為更可愛有藝術感的風格 */
+        .fun-title {
+            font-family: 'Mochiy Pop One', 'Zen Maru Gothic', 'Yusei Magic', sans-serif;
+            font-weight: 700;
+            color: #D32F2F; /* 改為較深的紅色 */
+            text-shadow: 3px 3px 0 #FFC107, 5px 5px 0 rgba(0,0,0,0.2);
+            letter-spacing: 2px;
+            transform: rotate(-1.5deg);
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,243,224,0.95));
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 2px dashed #FFA000; /* 更深的黃色邊框 */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            position: relative;
+        }
+        
+        .fun-title::before {
+            content: "★";
+            position: absolute;
+            top: -10px;
+            left: -5px;
+            color: #FFA000; /* 更深的黃色星星 */
+            font-size: 24px;
+        }
+        
+        .fun-title::after {
+            content: "★";
+            position: absolute;
+            bottom: -10px;
+            right: -5px;
+            color: #FFA000; /* 更深的黃色星星 */
+            font-size: 24px;
+        }
+        
+        .header-subtitle {
+            font-family: 'Yusei Magic', 'Kosugi Maru', 'Noto Sans TC', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #FFF;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
     </style>
 </head>
 <body class="washi-background">
@@ -991,7 +1036,7 @@
     <!-- 頁首 -->
     <header class="japanese-header">
         <div class="header-content">
-            <h1 class="header-title">胸腔內外科破天荒首次科遊</h1>
+            <h1 class="header-title fun-title">童熊熊破天荒首次科遊</h1>
             <p class="header-subtitle">石門水庫・石門活魚餐廳・大溪老街</p>
             <p class="header-date">出發日期：114年4月27日</p>
         </div>
@@ -1014,7 +1059,7 @@
     <main class="container">
         <!-- 行程概覽 -->
         <section id="overview" class="overview-section">
-            <h2>行程概覽</h2>
+            <h2 class="fun-title">行程概覽</h2>
             <div class="japanese-stamp">期待與您同行</div>
             <div class="timeline">
                 <div class="timeline-item">
@@ -1347,15 +1392,15 @@
     <!-- 頁尾 -->
     <footer>
         <div class="footer-content">
-            <div class="footer-logo">胸腔內外科破天荒首次科遊</div>
+            <div class="footer-logo fun-title">童熊熊破天荒首次科遊</div>
             <p class="footer-text">期待與您共度美好時光</p>
             <p class="conclusion-text">
-                親愛的胸腔內外科的夥伴們，這次「胸腔內外科破天荒首次科遊」將帶領我們一同探索石門水庫的壯麗風光、品嚐石門活魚的鮮美滋味，以及漫步在充滿歷史韻味的大溪老街。這不僅是一次旅遊，更是一次難得的團隊建設和放鬆機會。
+                親愛的童熊熊的夥伴們，這次「童熊熊破天荒首次科遊」將帶領我們一同探索石門水庫的壯麗風光、品嚐石門活魚的鮮美滋味，以及漫步在充滿歷史韻味的大溪老街。這不僅是一次旅遊，更是一次難得的團隊建設和放鬆機會。
             </p>
             <p class="conclusion-text">
                 讓我們在114年4月27日這一天，暫時放下工作的繁忙，一同享受大自然的美好與人文的魅力。期待與每一位同仁共度這美好的一天，創造屬於我們科室的珍貴回憶！
             </p>
-            <p>© 2025 胸腔內外科. 版權所有.</p>
+            <p>© 2025 童熊熊. 版權所有.</p>
         </div>
     </footer>
 
